@@ -1,11 +1,6 @@
-ul {
-    list-style-type: none;
+body{
+    font-family: Montserrat;
 }
-li {
-    display: inline;
-    padding: 2% 0 0 2% ;
-}
-
 a{
     text-decoration: none;
     color:#CDD1EA;
@@ -22,37 +17,26 @@ h1 {
 }
 li button {
     font-size: 1rem;
-    border-radius: 7px;
+}
+.btn-dark{
     background-color: #252535;
-    width: 100%;
-}
-.navButtons{
-    display:flex;
-    justify-content: flex-end;
-    
-}
-.container {
-    width: 80%;
-    margin: auto;
-    
-}
-.nav {
-    text-align: end;
 }
 
 .titleSection {
     margin-top: 20%;
     color: #252535;
-    font-family: Montserrat;
 }
 .upperTitle{
     font-size: 2rem;
     margin:auto;
     opacity: 90%;
+    font-style: italic;
 }
 .lowerTitle{
     text-align: center;
     font-family: Montserrat-Light;
+    font-style: italic;
+    opacity: 70%;
 }
 
 #title {

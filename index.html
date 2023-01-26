@@ -5,23 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
     <div class="container">
         <!--Navigation-->
-            <nav class="nav">
-                <ul>
-                    <div class="navButtons">
-                        <li><button><a href="#">Resume</a></button></li>
-                        <li><button><a href="#">About Me</a></button></li>
-                        <li><button><a href="#">Skills</a></button></li>
-                        <li><button><a href="#">Project</a></button></li>
-                        <li><button><a href="#">Contact Me</a></button></li>
-                    </div>
+            <nav class="navbar navbar-expand-lg">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-dark "><a href="#">Resume</a></button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-dark "><a href="#">About Me</a></button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-dark "><a href="#">Skills</a></button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-dark "><a href="#">Projects</a></button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-dark "><a href="#">Contact Me</a></button>
+                    </li>
                 </ul>
             </nav>   
         <!--Title Section-->
@@ -29,7 +38,6 @@
             <h2 class="upperTitle">My name is</h2>
             <h1 id="title">Tariq Moore</h1>
             <h3 class="lowerTitle">Musician, Cat Dad, and Web Developer</h3>
-
         </div>
         
 
@@ -37,6 +45,7 @@
     </div>
     
     <script src="portfolio.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 <footer>&copy; 2023 - Tariq Moore</footer>
 </html>
