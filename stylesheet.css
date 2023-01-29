@@ -6,13 +6,8 @@ a{
     color:#CDD1EA;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-}
 
 h1 {
-    text-align: center;
     font-size: 5rem;
 }
 li button {
@@ -22,9 +17,18 @@ li button {
     background-color: #252535;
 }
 
-.titleSection {
-    margin-top: 20%;
+.heroSection {
+    margin-top: 15%;
     color: #252535;
+}
+.heroButtons {
+    margin-top: 3%;
+}
+.heroBtn {
+    margin: 0 2% 0 0;
+}
+.btn-primary{
+    background-color: #252535;
 }
 .upperTitle{
     font-size: 2rem;
@@ -33,7 +37,6 @@ li button {
     font-style: italic;
 }
 .lowerTitle{
-    text-align: center;
     font-family: Montserrat-Light;
     font-style: italic;
     opacity: 70%;
