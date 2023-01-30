@@ -13,12 +13,16 @@ h1 {
 li button {
     font-size: 1rem;
 }
+.nav-item > a{
+    color: #252535;
+    font-size: 1.3rem;
+}
 .btn-dark{
     background-color: #252535;
 }
 
 .heroSection {
-    margin-top: 15%;
+    margin-top: 13%;
     color: #252535;
 }
 .heroButtons {
@@ -42,7 +46,14 @@ li button {
     opacity: 70%;
 }
 
+.skyblue-bg {
+    background-color: #CDD1EA;
+}
+.container-fluid {
+    padding: 0;
+}
 #title {
-    margin: 3% 0 2% 0;
+    
     font-weight: bold;
 }
+
