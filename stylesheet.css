@@ -29,7 +29,7 @@ li button {
     margin-top: 3%;
 }
 .heroBtn {
-    margin: 0 1% 0 0;
+    margin: 4% 1% 0 0;
 }
 .btn-primary{
     background-color: #252535;
@@ -49,6 +49,9 @@ li button {
 .skyblue-bg {
     background-color: #CDD1EA;
 }
+.top-Section{
+    height: 100vh;
+}
 .container-fluid {
     padding: 0;
 }
@@ -57,3 +60,6 @@ li button {
     font-weight: bold;
 }
 
+.navbar-light .navbar-toggler {
+    border: 1px solid #252535;
+}
