@@ -19,19 +19,20 @@
 
 <body>
     <section class="skyblue-bg top-Section">
-        <section class="container-fluid px-5">
+        <div class="container-fluid px-5">
             <!--Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
                 <a class="navbar-brand" href=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                 <div id="mobileMenu" class="collapse navbar-collapse">
                     <ul class="navbar-nav ms-auto text-end">
-                        <li class="nav-item ps-4"><a href="#">Home</a></li>
+                        <li class="nav-item ps-4"><a href="#heroSection">Home</a></li>
                         <li class="nav-item ps-4"><a href="#">Resume</a></li>
+                        <li class="nav-item ps-4"><a href="#aboutMe">About Me</a></li>
                         <li class="nav-item ps-4"><a href="#">Projects</a></li>
-                        <li class="nav-item ps-4"><a href="#">Contact Me</a></li> 
+                        <li class="nav-item ps-4"><a href="#">Contact</a></li> 
                     </ul>
                 </div>
             </nav>
@@ -48,7 +49,7 @@
                 </div>
                 
             </div>
-        </section>
+        </div>
 
     </section>
     
@@ -57,9 +58,15 @@
     <main class="">
 
         <!--About Me Section-->
-        <section id="aboutMe" class="aboutMe">
-
-        </section>
+        <div class="container-fluid">
+            <section id="aboutMe" class="aboutMe p-5">
+                <h2 class=" aboutHeader py-3">Get to know me!</h2>
+                <div class="aboutMeTxt px-4">
+                    <p>I'm a Frontend developer with experience working with the latest web technologies. I was first exposed to programming at Broward College learning Python in the Intro to Programming course. This lead to me graduated with my Software Development degree in 2022.</p>
+                    <p> Now I continue my studies as a self-taught developer learning React, NodeJS, Tailwind CSS and more. Take a look at the current projects I have showcased below :) </p>
+                </div>
+            </section>
+        </div>
 
         <!--Skills Section-->
         <section id="skills" class="skills">

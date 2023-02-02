@@ -23,7 +23,7 @@ li button {
 
 .heroSection {
     margin-top: 13%;
-    color: #252535;
+    color: #090909;
 }
 .heroButtons {
     margin-top: 3%;
@@ -62,4 +62,20 @@ li button {
 
 .navbar-light .navbar-toggler {
     border: 1px solid #252535;
+}
+.navbar {
+    position: sticky;
+}
+
+
+.aboutMe {
+    text-align: center;
+    color: #CDD1EA;
+    background-color: #252535;
+}
+.aboutHeader {
+    font-size: 2.5rem;
+}
+.aboutMeTxt {
+    font-size: 1.3rem;
 }
