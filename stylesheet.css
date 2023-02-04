@@ -26,10 +26,14 @@ li button {
     color: #090909;
 }
 .heroButtons {
-    margin-top: 3%;
+    margin-top: 0%;
 }
 .heroBtn {
-    margin: 4% 1% 0 0;
+    margin: 2% 1% 0 0;
+}
+a > i {
+    color: #090909;
+    margin: 4% 4% 2% 0%;
 }
 .btn-primary{
     background-color: #252535;
