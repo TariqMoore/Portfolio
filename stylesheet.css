@@ -1,3 +1,7 @@
+/*General Styling*/
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: Montserrat;
 }
@@ -6,37 +10,42 @@ a{
     color:#CDD1EA;
 }
 
-
 h1 {
     font-size: 5rem;
 }
-li button {
-    font-size: 1rem;
+
+.skyblue-bg {
+    background-color: #CDD1EA;
 }
-.nav-item > a{
-    color: #252535;
-    font-size: 1.3rem;
+
+.btn-primary{
+    background-color: #252535;
 }
 .btn-dark{
     background-color: #252535;
 }
 
-.heroSection {
-    margin-top: 13%;
-    color: #090909;
+/*Containers*/
+.container-fluid {
+    padding: 0;
 }
-.heroButtons {
-    margin-top: 0%;
+/*Navigation styling*/
+nav {
+    position: sticky;
 }
-.heroBtn {
-    margin: 2% 1% 0 0;
+
+.navbar-light .navbar-toggler {
+    border: 1px solid #252535;
 }
-a > i {
-    color: #090909;
-    margin: 4% 4% 2% 0%;
+
+.nav-item > a{
+    color: #252535;
+    font-size: 1.3rem;
 }
-.btn-primary{
-    background-color: #252535;
+
+/*Title Section styling*/
+#title {
+    font-weight: bold;
 }
 .upperTitle{
     font-size: 2rem;
@@ -50,36 +59,38 @@ a > i {
     opacity: 70%;
 }
 
-.skyblue-bg {
-    background-color: #CDD1EA;
+/*Hero Section styling*/
+
+.heroSection {
+    padding-top: 13%;
+    color: #090909;
 }
+.heroButtons {
+    margin-top: 3%;
+}
+.heroBtn {
+    margin-right: 1%;
+}
+
 .top-Section{
     height: 100vh;
 }
-.container-fluid {
-    padding: 0;
-}
-#title {
-    
-    font-weight: bold;
+
+a > i { /*Social Media icons*/
+    color: #090909;
+    margin: 4% 4% 2% 0%;
 }
 
-.navbar-light .navbar-toggler {
-    border: 1px solid #252535;
-}
-.navbar {
-    position: sticky;
-}
-
-
+/*About Me Section styling*/
 .aboutMe {
     text-align: center;
     color: #CDD1EA;
     background-color: #252535;
 }
 .aboutHeader {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
 }
 .aboutMeTxt {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
 }
