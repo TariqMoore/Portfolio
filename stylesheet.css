@@ -13,7 +13,11 @@ a{
 h1 {
     font-size: 5rem;
 }
-
+/*Containers*/
+.container-fluid {
+    padding: 0;
+}
+    
 .skyblue-bg {
     background-color: #CDD1EA;
 }
@@ -25,10 +29,7 @@ h1 {
     background-color: #252535;
 }
 
-/*Containers*/
-.container-fluid {
-    padding: 0;
-}
+
 /*Navigation styling*/
 nav {
     position: sticky;
@@ -94,3 +95,18 @@ a > i { /*Social Media icons*/
     font-size: 1.5rem;
     line-height: 2.5rem;
 }
+
+/*Mobile Queries*/
+@media all and (max-width: 480px) {
+
+    .top-Section{
+        padding-bottom: 35%;
+    }
+    .heroSection {
+        padding: 35%;
+    }
+    
+    .heroBtn {
+        margin-top: 8%;
+    }
+} 
