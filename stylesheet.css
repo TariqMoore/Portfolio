@@ -13,6 +13,10 @@ a{
 h1 {
     font-size: 5rem;
 }
+.bold{
+    font-weight: bold;
+}
+
 /*Containers*/
 .container-fluid {
     padding: 0;
@@ -33,6 +37,7 @@ h1 {
 /*Navigation styling*/
 nav {
     position: sticky;
+    background-color: #8F97C4;
 }
 
 .navbar-light .navbar-toggler {
@@ -44,6 +49,9 @@ nav {
     font-size: 1.3rem;
 }
 
+#mobileMenu {
+    line-height: 2.5rem;
+}
 /*Title Section styling*/
 #title {
     font-weight: bold;
@@ -94,6 +102,42 @@ a > i { /*Social Media icons*/
 .aboutMeTxt {
     font-size: 1.5rem;
     line-height: 2.5rem;
+}
+
+/*Footer Section*/
+.black-section{
+    background-color: #090909;
+    color: #FFFFFF;
+}
+
+.footerLocation{
+
+}
+.footerContact{
+    overflow-wrap: break-word;
+}
+
+.footerIcons{
+   background-color: #FFFFFF; /*Need to change this to white for the image color*/
+}
+
+div.links > ul > li {
+    list-style-type: none;
+    color: #090909;
+}
+
+div.links > ul > li > a {
+    color: #FFFFFF;
+    opacity: 80%;
+
+}
+div.links > ul > li > a:hover {
+    opacity: 100%;
+}
+
+.links {
+    position: relative;
+    line-height: 3rem;
 }
 
 /*Mobile Queries*/
