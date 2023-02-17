@@ -17,6 +17,20 @@ h1 {
     font-weight: bold;
 }
 
+/*Scrollbar Styling*/
+::-webkit-scrollbar {
+    background-color: #090909;
+}
+::-webkit-scrollbar-button {
+}
+::-webkit-scrollbar-track {
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #a2a2a6;
+    border-radius: 20px;
+}
+
 /*Containers*/
 .container-fluid {
     padding: 0;
@@ -118,9 +132,12 @@ a > i { /*Social Media icons*/
 }
 
 .footerIcons{
-   background-color: #FFFFFF; /*Need to change this to white for the image color*/
+   color: #FFFFFF; /*Need to change this to white for the image color*/
 }
+.fa-color {
 
+    color: #FFFFFF;
+}
 div.links > ul > li {
     list-style-type: none;
     color: #090909;
@@ -138,10 +155,11 @@ div.links > ul > li > a:hover {
 .links {
     position: relative;
     line-height: 3rem;
+    font-size: 1.15rem;
 }
 
 /*Mobile Queries*/
-@media all and (max-width: 480px) {
+/* @media all and (max-width: 480px) {
 
     .top-Section{
         padding-bottom: 35%;
@@ -153,4 +171,4 @@ div.links > ul > li > a:hover {
     .heroBtn {
         margin-top: 8%;
     }
-} 
+}  */
