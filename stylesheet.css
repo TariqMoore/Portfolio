@@ -13,10 +13,19 @@ a{
 h1 {
     font-size: 5rem;
 }
+/* Utility Styling*/
 .bold{
     font-weight: bold;
 }
-
+.sectionHeader {
+    font-size: 2.6rem;
+    text-align: center;
+}
+.projectLink{
+    /*color: rgb(167, 244, 208);*/
+    color: #8F97C4;
+    text-decoration: underline;
+}
 /*Scrollbar Styling*/
 ::-webkit-scrollbar {
     background-color: #090909;
@@ -59,8 +68,11 @@ nav {
 }
 
 .nav-item > a{
-    color: #252535;
+    color: #090909;
     font-size: 1.3rem;
+}
+a:hover{
+    color: #FFFFFF;
 }
 
 #mobileMenu {
@@ -117,16 +129,16 @@ a > i { /*Social Media icons*/
     font-size: 1.5rem;
     line-height: 2.5rem;
 }
-
+/*Project Section*/
+.projects {
+    background-color: #CDD1EA;
+}
 /*Footer Section*/
 .black-section{
     background-color: #090909;
     color: #FFFFFF;
 }
 
-.footerLocation{
-
-}
 .footerContact{
     overflow-wrap: break-word;
 }
@@ -135,7 +147,6 @@ a > i { /*Social Media icons*/
    color: #FFFFFF; /*Need to change this to white for the image color*/
 }
 .fa-color {
-
     color: #FFFFFF;
 }
 div.links > ul > li {
@@ -159,16 +170,3 @@ div.links > ul > li > a:hover {
 }
 
 /*Mobile Queries*/
-/* @media all and (max-width: 480px) {
-
-    .top-Section{
-        padding-bottom: 35%;
-    }
-    .heroSection {
-        padding: 35%;
-    }
-    
-    .heroBtn {
-        margin-top: 8%;
-    }
-}  */
