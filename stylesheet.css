@@ -135,7 +135,17 @@ a > i { /*Social Media icons*/
     text-align: center;
 }
 .projectCard {
-    padding: 8% 0 5% 0
+    padding: 8% 0 2% 0;
+    width: 40%;
+    height: 80%;
+    margin: 5% 5%;
+    background-color: red;
+    border-radius: 10px drop-shadow;
+    border: solid 2px;
+    /*box-shadow: 0 5px 2px #252535;*/
+}
+.projectBtn {
+    padding: 2% 7% 2% 7%;
 }
 /*Footer Section*/
 .black-section{
