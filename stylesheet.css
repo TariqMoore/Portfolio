@@ -135,17 +135,29 @@ a > i { /*Social Media icons*/
     text-align: center;
 }
 .projectCard {
-    padding: 8% 0 2% 0;
-    width: 40%;
-    height: 80%;
+    padding: 2% 0 2% 0;
     margin: 5% 5%;
-    background-color: red;
+    background-color: #8F97C4ed;
     border-radius: 10px drop-shadow;
     border: solid 2px;
-    /*box-shadow: 0 5px 2px #252535;*/
+    font-size: 1.25rem;
+}
+.projectInfo{
+    text-align: left;
+}
+.projectButtons {
+    position: relative;
+    width: 80%;
+    margin: auto;
 }
 .projectBtn {
     padding: 2% 7% 2% 7%;
+    margin: 5% 3%;
+    font-size: 1.25rem;
+}
+.secondaryPrjBtn {
+    color: black;
+    border-color: white;
 }
 /*Footer Section*/
 .black-section{
