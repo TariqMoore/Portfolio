@@ -134,27 +134,27 @@ a > i { /*Social Media icons*/
     background-color: #CDD1EA;
     text-align: center;
 }
-.projectCard {
+/* .projectCard {
     padding: 2% 0 2% 0;
     margin: 5% 5%;
     background-color: #8F97C4ed;
     border-radius: 10px drop-shadow;
     border: solid 2px;
     font-size: 1.25rem;
-}
-.projectInfo{
+} 
+ .projectInfo{
     text-align: left;
 }
-.projectButtons {
+ .projectButtons { UNCOMMENT OR DELETE WHEN YOU FIGURE OUT BOOTSTRAP5 CARDS
     position: relative;
     width: 80%;
     margin: auto;
 }
-.projectBtn {
+.projectBtn { 
     padding: 2% 7% 2% 7%;
     margin: 5% 3%;
     font-size: 1.25rem;
-}
+} */  
 .secondaryPrjBtn {
     color: black;
     border-color: white;
