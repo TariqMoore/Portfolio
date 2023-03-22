@@ -109,6 +109,7 @@ a:hover{
 
 .top-Section{
     height: 100vh;
+    min-height: 100svh;
 }
 
 a > i { /*Social Media icons*/
