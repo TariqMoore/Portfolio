@@ -4,6 +4,7 @@ html{
 }
 body{
     font-family: Montserrat;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -136,6 +137,10 @@ a > i { /*Social Media icons*/
     text-align: center;
 }
 
+/*.live-btn {
+
+}*/
+
 .topBuffer {
     margin-top: 1.5% ;
 }
@@ -177,4 +182,15 @@ div.links > ul > li > a:hover {
     padding: 0;
 }
 
+/*Animations*/
+.fadeIn{
+    opacity: 0;
+    transform: translatey(100%);
+    transition: opacity 1s ease-in-out, transform .75s ease; /*Transition property can have multiple css properties in it. But they need to be separated by a comma*/
+}
+
+.fadeIn.show {
+    opacity: 1;
+    transform: translate(0);
+}
 /*Mobile Queries*/
