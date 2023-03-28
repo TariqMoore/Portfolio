@@ -31,8 +31,6 @@ h1 {
 ::-webkit-scrollbar {
     background-color: #090909;
 }
-::-webkit-scrollbar-button {
-}
 ::-webkit-scrollbar-track {
     border-radius: 20px;
 }
@@ -136,10 +134,16 @@ a > i { /*Social Media icons*/
     background-color: #CDD1EA;
     text-align: center;
 }
+.project-btn{
+    margin: 4%;
+}
+.live-btn {
+    margin: 2% 4%;
+}
+.code-btn{
+    margin: 2%;
+}  
 
-/*.live-btn {
-
-}*/
 
 .topBuffer {
     margin-top: 1.5% ;
@@ -195,12 +199,32 @@ div.links > ul > li > a:hover {
 }
 /*Mobile Queries*/
 
+@media (max-width:1200px){
+     /*Project Section*/
+     .live-btn {
+        margin: auto;
+        width: 30%;
+    }
+    .code-btn {
+        margin: auto;
+        width: 30%;
+    }
+}
 @media (max-width: 1024px) {
     .heroSection{
         padding-top: 20%;
     }
     .heroBtn {
         margin: auto; 
+    }
+     /*Project Section*/
+     .live-btn {
+        margin: auto;
+        width: 50%;
+    }
+    .code-btn {
+        margin: auto;
+        width: 50%;
     }
 }
 
@@ -223,6 +247,13 @@ div.links > ul > li > a:hover {
     .aboutMeTxt{
         font-size: 1.5rem;
     }
+     /*Project Section*/
+     .live-btn {
+        width: auto;
+    }
+    .code-btn {
+        width: auto;
+    }
 }
 
 @media (max-width: 480px){
@@ -233,7 +264,7 @@ div.links > ul > li > a:hover {
         padding-top: 5%;
     }
     .heroIcon{
-        margin-right: 10%;
+        margin-right: 7%;
     }
     .heroButtons {
         margin-top: 5%; 
@@ -245,5 +276,15 @@ div.links > ul > li > a:hover {
     .aboutMeTxt{
         line-height: 1.5;
         font-size: 1.3rem;
+    }
+
+    /*Project Section*/
+    .live-btn {
+        width: 100%;
+        margin: 2% auto;
+    }
+    .code-btn {
+        width: 100%;
+        margin: 2% auto;
     }
 }
