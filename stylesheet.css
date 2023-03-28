@@ -194,3 +194,56 @@ div.links > ul > li > a:hover {
     transform: translate(0);
 }
 /*Mobile Queries*/
+
+@media (max-width: 1024px) {
+    .heroSection{
+        padding-top: 20%;
+    }
+    .heroBtn {
+        margin: auto; 
+    }
+}
+
+@media (max-width: 800px) {
+    .heroSection {
+        padding-top: 30%;
+    }
+    .heroIcons {
+        margin-top: 5%;
+    }
+    .heroIcon{
+        margin-right: 10%;
+    }
+    .heroButtons {
+        margin-top: 2.5%; 
+    }
+    .heroBtn {
+        margin: 2.5% auto; 
+    }
+    .aboutMeTxt{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px){
+    .heroSection {
+        padding-top: 40%;
+    }
+    .heroIcons {
+        padding-top: 5%;
+    }
+    .heroIcon{
+        margin-right: 10%;
+    }
+    .heroButtons {
+        margin-top: 5%; 
+    }
+    .heroBtn {
+        margin: 5% auto; 
+    }
+
+    .aboutMeTxt{
+        line-height: 1.5;
+        font-size: 1.3rem;
+    }
+}
