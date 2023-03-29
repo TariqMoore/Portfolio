@@ -27,6 +27,13 @@ h1 {
     color: #8F97C4;
     text-decoration: underline;
 }
+.btn-primary:hover {
+    background-color: #090909;
+}
+.btn-outline-secondary > a {
+    color: #090909;
+}
+
 /*Scrollbar Styling*/
 ::-webkit-scrollbar {
     background-color: #090909;
@@ -70,9 +77,9 @@ nav {
     color: #090909;
     font-size: 1.3rem;
 }
-a:hover{
-    color: #FFFFFF;
-}
+/* a:hover{
+    background-color: #FFFFFF;
+} */
 
 #mobileMenu {
     line-height: 2.5rem;
@@ -196,6 +203,29 @@ div.links > ul > li > a:hover {
 .fadeIn.show {
     opacity: 1;
     transform: translate(0);
+}
+
+.underline-animation { /*Adds an underline to the nav item when hovering over it*/
+    display:inline-block;
+    position: relative;
+    color: #090909;
+}
+.underline-animation::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:#090909;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-in-out;
+
+}
+.underline-animation:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 /*Mobile Queries*/
 
