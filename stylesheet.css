@@ -106,8 +106,17 @@ nav {
     padding-top: 13%;
     color: #090909;
 }
+.heroImg {
+    width: 25%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.heroIcons {
+    margin-top: 5%;
+}
 .heroButtons {
-    margin-top: 3%;
+    margin-top: 5%;
 }
 .heroBtn {
     margin-right: 1%;
@@ -230,6 +239,12 @@ div.links > ul > li > a:hover {
 /*Mobile Queries*/
 
 @media (max-width:1200px){
+    .heroImg {
+        position: absolute;
+        width: 20%;
+        left: 60%;
+        margin: 10% auto;
+    }
      /*Project Section*/
      .live-btn {
         margin: auto;
@@ -241,6 +256,11 @@ div.links > ul > li > a:hover {
     }
 }
 @media (max-width: 1024px) {
+    .heroImg {
+        position: relative;
+        left: 0;
+        margin: 10% auto;
+    }
     .heroSection{
         padding-top: 20%;
     }
@@ -259,6 +279,12 @@ div.links > ul > li > a:hover {
 }
 
 @media (max-width: 800px) {
+    .heroImg {
+        position: relative;
+        left: 0;
+        margin: 10% auto;
+        width: 40%;
+    }
     .heroSection {
         padding-top: 30%;
     }
