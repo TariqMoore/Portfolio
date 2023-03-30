@@ -256,6 +256,9 @@ div.links > ul > li > a:hover {
     }
 }
 @media (max-width: 1024px) {
+    .top-Section {
+        height: auto;
+    }
     .heroImg {
         position: relative;
         left: 0;
@@ -279,6 +282,9 @@ div.links > ul > li > a:hover {
 }
 
 @media (max-width: 800px) {
+    .top-Section {
+        height: auto;
+    }
     .heroImg {
         position: relative;
         left: 0;
@@ -313,6 +319,9 @@ div.links > ul > li > a:hover {
 }
 
 @media (max-width: 480px){
+    .top-Section {
+        height: auto;
+    }
     .heroSection {
         padding-top: 40%;
     }
